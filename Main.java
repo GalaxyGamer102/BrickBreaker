@@ -1,10 +1,10 @@
 import javax.swing.JFrame;
 
 public class Main {
-    public static void main{String[] args}(
+    public static void main(String[] args){
         
-        JFrame frame = New JFrame();
-        GamePlay gamePlay = New GamePlay();
+        JFrame frame = new JFrame();
+        GamePlay gamePlay = new GamePlay();
 
         frame.setBounds(500,100,700,600);
         frame.setTitle("brick :)");
@@ -12,5 +12,5 @@ public class Main {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.add(gamePlay);
         frame.setVisible(true);
-    )
+    }
 }
